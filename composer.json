@@ -66,6 +66,15 @@
         "sort-packages": true,
         "platform": {
             "php": "7.4"
+        },
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-project-message": true,
+            "simplesamlphp/composer-module-installer": true,
+            "wikimedia/composer-merge-plugin": true
         }
     }
 }
